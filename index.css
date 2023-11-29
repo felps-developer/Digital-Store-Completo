@@ -23,10 +23,11 @@ header .container {
     display: flex;
     margin-left: 237px;
     margin-right: 200px;
-    width: 100%;
+    width: 1440px;
     margin-top: 50px;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 header .logo {
@@ -89,12 +90,12 @@ header .input-pesquisar .botao {
 }
 
 header .container #cadastro{
-    margin-left: 80px;
+    margin-left: 27px;
     text-decoration: underline;
 }
 
 header .container #entrar{
-    margin-left: 15px;
+    margin-left: 30px;
     background-color: #C92071;
     color: white;
     border-radius: 8px;
@@ -107,7 +108,7 @@ header .container #entrar{
 header .container .link{
     width: 33px;
     height: 29px;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 
 header .container2 nav{
@@ -478,4 +479,218 @@ section{
 .container5 .tipo5  img{
     margin-top: 20px;
     margin-left: 15px;      
+}
+
+.titulo-produto{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 237px;
+    width: 1440px;
+    justify-content:space-between ;
+}
+
+#cards{
+    margin-top: 20px;
+    margin-left: 237px;
+    width:1440px ;
+    height: 898px;
+    display: flex;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+#cards .card{
+    width: 292px;
+    height: 439px;
+    border-radius: 10px;
+    border: 4px solid #dedede;
+}
+#cards .card .card-image{
+    position: relative;
+}
+#cards .card .card-image .card-pill{
+    position: absolute;
+    top:16px;
+    left: 16px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    padding: 6px;
+    background-color: #E7FF86;
+    border-radius: 8px;
+}
+#cards .card .card-image img{
+    display: block;
+    width: 100%;
+    padding: 36px 0px 0px 0px;
+    
+}
+
+#cards .card .card-content{
+    padding: 20px;
+}
+#cards .card .card-content p{
+    margin-top: 30px;
+    font-size: 12px;
+    color: #8F8F8F;
+}
+#cards .card .card-content h1{
+    margin-top: 10px;
+    font-size: 23px;
+    font-weight: 400;
+    width: 100%;
+    color: #474747
+}
+
+.container6{
+    width: 1440px;
+    height: 553px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 237px;
+    
+}
+.container6 .imagem-tenis {
+    position: relative;
+    z-index: 0;
+    margin-bottom: 330px;
+}
+.container6 .imagem-tenis .elipse{
+    position: absolute;
+    z-index: 1;
+    bottom: 30px;
+    left: 75px;
+    
+}
+.container6 .imagem-tenis img{
+    position: absolute;
+    z-index: 2;
+    
+}
+
+.container6 .caixa-jordan{
+    
+    width: 589px;
+    height: 341px;
+    align-items: center;
+    margin-left: 700px;
+}
+.container6 .caixa-jordan #especial{
+    margin-top: 30px;
+    font-size: 14px;
+    color: #C92071;
+    font-weight: 700;
+}
+.container6 .caixa-jordan h1{
+    margin-top: 10px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #474747;
+}
+.container6 .caixa-jordan #texto-especial{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #474747;
+}
+.container6 .caixa-jordan button{
+    width: 200px;
+    height: 40px;
+    background-color: #C92071;
+    color: white;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+footer{
+    background-color: #1F1F1F;
+    width: 1900px;
+    height: 454px;
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+footer .digital-store{
+    width: 300px;
+    margin-left: 70px;
+    margin-bottom: 79px;
+}
+
+footer .digital-store p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #FFFFFF;
+}
+footer .digital-store .redes{
+    display: flex;
+    gap: 20px;
+}
+
+footer .informacoes{
+    width: 128px;
+    height: 250px;
+    
+}
+footer .informacoes h1{
+    color: #FFFFFF;
+}
+footer .informacoes .a-informacao {
+    
+    margin-top: 20px;
+}
+footer .informacoes .a-informacao ul li {
+    
+    padding-top: 20px;
+}
+footer .informacoes .a-informacao ul li a{
+    color: #FFFFFF;
+    
+}
+footer .categoria{
+    width: 128px;
+    height: 250px;
+    
+}
+footer .categoria h1{
+    color: #FFFFFF;
+}
+footer .categoria .a-categoria {
+    
+    margin-top: 20px;
+}
+footer .categoria .a-categoria ul li {
+    
+    padding-top: 20px;
+}
+footer .categoria .a-categoria ul li a{
+    color: #FFFFFF;
+    
+}
+footer .Contatos{
+    width: 240px;
+    height: 130px;
+    margin-bottom: 116px;
+}
+footer .Contatos h1{
+    color: #FFFFFF;
+}
+
+footer .Contatos p {
+    margin-top: 35px;
+    color: #FFFFFF;
+}
+
+footer .fim .imag-linha{
+    position: absolute;
+    top: 3625px;
+    left: 237px;
+}
+footer .fim p{
+    position: absolute;
+    top: 3645px;
+    left: 800px;
+    color: #FFFFFF;
 }
