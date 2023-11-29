@@ -8,6 +8,10 @@
     box-sizing: none;
     font-family: Arial, Helvetica, sans-serif;
 }
+body {
+    overflow-x: hidden;
+  }
+  
 
 header {
     display: block;    
@@ -660,12 +664,12 @@ footer{
     height: 454px;
     display: flex;
     align-items: center;
-    gap: 300px;
+    gap: 200px;
 }
 footer .digital-store{
     width: 300px;
-    margin-left: 70px;
-    margin-bottom: 79px;
+    margin-left: 237px;
+    margin-bottom: 76px;
 }
 
 footer .digital-store p{
@@ -698,6 +702,9 @@ footer .informacoes .a-informacao ul li a{
     color: #FFFFFF;
     
 }
+footer .informacoes .a-informacao ul li a:hover{
+    text-decoration: underline;
+}
 footer .categoria{
     width: 128px;
     height: 250px;
@@ -717,6 +724,9 @@ footer .categoria .a-categoria ul li {
 footer .categoria .a-categoria ul li a{
     color: #FFFFFF;
     
+}
+footer .categoria .a-categoria ul li a:hover{
+    text-decoration: underline;
 }
 footer .Contatos{
     width: 240px;
